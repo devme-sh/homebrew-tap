@@ -5,15 +5,8 @@ class Devme < Formula
   version "0.1.0"
 
   on_macos do
-    on_arm do
-      url "https://github.com/devme-sh/devme/releases/download/v#{version}/devme-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
-
-    on_intel do
-      url "https://github.com/devme-sh/devme/releases/download/v#{version}/devme-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
+    url "https://github.com/devme-sh/devme/releases/download/v#{version}/devme-aarch64-apple-darwin.tar.gz"
+    sha256 "PLACEHOLDER"
   end
 
   on_linux do
