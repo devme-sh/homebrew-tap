@@ -2,22 +2,22 @@ class Devme < Formula
   desc "The executable README — one command from git clone to running dev environment"
   homepage "https://devme.sh"
   license "MIT"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     url "https://github.com/devme-sh/devme/releases/download/v#{version}/devme-aarch64-apple-darwin.tar.gz"
-    sha256 "5383ee59944d6a568ce33676e3d85fb794f2d3f0c086202fa21ec6171a1880a3"
+    sha256 "1d26eec165b6be4f7b9a43d50c93a195863ce39b887db66a628b4d32c15087df"
   end
 
   on_linux do
     on_arm do
       url "https://github.com/devme-sh/devme/releases/download/v#{version}/devme-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a4b58f761ad0986e7e1c77d0d03923f31795d536b71fbb0ee5c2e852ff8f6c57"
+      sha256 "a4df1c7e0a8c18ccea093ac8536da0b83e73aaa0719e0218d440646e81ee82b0"
     end
 
     on_intel do
       url "https://github.com/devme-sh/devme/releases/download/v#{version}/devme-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "75ebea831c6637b484b65bf4181815d1ad4d2bf86df27e4f90c5b80f17d7c5c9"
+      sha256 "b3a69268211ad8bcf3b6fdc7743b047f0d3082ded2cdd3a63d7173aa406ee950"
     end
   end
 
